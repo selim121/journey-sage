@@ -4,6 +4,7 @@ import Header from '../components/Header/Header.jsx';
 import initializeAOS from '../../aosConfig.js';
 import AboutPage from './about/page.js';
 import PlaceLists from './places/page.js';
+import OurGallery from './our-gallery/page.js';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Header />
       <AboutPage />
       <PlaceLists />
+      <OurGallery />
     </main>
   )
 }
