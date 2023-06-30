@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer/Footer.jsx';
 import Navbar from '../components/Navbar/Navbar.jsx';
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -15,6 +16,7 @@ const RootLayout = ({ children }) => {
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Footer />
         <script>
           AOS.init();
         </script>
