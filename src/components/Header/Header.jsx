@@ -42,7 +42,7 @@ const Header = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className='h-full md:h-[500px] w-full'>
+                    <div className='h-full md:h-[700px] w-full'>
                         <Image src={img1} alt='' />
                         <div className="slide-content">
                             <div data-aos="zoom-in"
@@ -57,7 +57,7 @@ const Header = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='h-full md:h-[500px] w-full'>
+                    <div className='h-full md:h-[700px] w-full'>
                         <Image src={img2} alt='' />
                         <div className="slide-content">
                             <div className="">
@@ -70,7 +70,7 @@ const Header = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='h-full md:h-[500px] w-full'>
+                    <div className='h-full md:h-[700px] w-full'>
                         <Image src={img3} alt='' />
                         <div className="slide-content">
                             <div className="">
@@ -83,7 +83,7 @@ const Header = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='h-full md:h-[500px] w-full'>
+                    <div className='h-full md:h-[700px] w-full'>
                         <Image src={img4} alt='' />
                         <div className="slide-content">
                             <div className="">
@@ -96,7 +96,7 @@ const Header = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='h-full md:h-[500px] w-full'>
+                    <div className='h-full md:h-[700px] w-full'>
                         <Image src={img5} alt='' />
                         <div className="slide-content">
                             <div className="">
