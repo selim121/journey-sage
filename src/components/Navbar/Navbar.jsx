@@ -2,28 +2,30 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import close from '../../../images/icons/close.svg';
+import open from '../../../images/icons/hamburger-menu.svg';
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
 
     useEffect(() => {
-        const handleScroll = () => {
-            if (window.pageYOffset > 0) {
-                setNavbar(true);
-            } else {
-                setNavbar(false);
-            }
-        };
-
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
+    const handleScroll = () => {
+        if (window.scrollY > 0) {
+            document.querySelector('nav').classList.add('bg-gray-900');
+        } else {
+            document.querySelector('nav').classList.remove('bg-gray-900');
+        }
+    };
+
     return (
         <div>
-            <nav className={`w-full fixed top-0 left-0 right-0 z-10 ${navbar ? 'bg-gray-900' : 'bg-transparent md:bg-gray-600 md:bg-opacity-40'}`}>
+            <nav className=' fixed top-0 left-0 right-0 z-10'>
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -36,10 +38,10 @@ const NavBar = () => {
                                     onClick={() => setNavbar(!navbar)}
                                 >
                                     {navbar ? (
-                                        <Image src="/close.svg" width={30} height={30} alt="logo" />
+                                        <Image src={close} width={30} height={30} alt="logo" />
                                     ) : (
                                         <Image
-                                            src="/hamburger-menu.svg"
+                                            src={open}
                                             width={30}
                                             height={30}
                                             alt="logo"

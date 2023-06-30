@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Header from '../components/Header/Header.jsx';
 import initializeAOS from '../../aosConfig.js';
 import AboutPage from './about/page.js';
+import PlaceLists from './places/page.js';
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Header />
       <AboutPage />
+      <PlaceLists />
     </main>
   )
 }
