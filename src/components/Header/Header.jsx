@@ -8,11 +8,11 @@ import 'swiper/css/navigation';
 import "swiper/css/effect-fade";
 import { EffectFade, Autoplay, Pagination, Navigation } from 'swiper';
 import './Header.css';
-import img1 from '../../../images/slider/1.jpeg';
-import img2 from '../../../images/slider/2.jpeg';
-import img3 from '../../../images/slider/3.jpeg';
-import img4 from '../../../images/slider/4.jpeg';
-import img5 from '../../../images/slider/5.jpeg';
+import img1 from '../../images/slider/1.jpeg';
+import img2 from '../../images/slider/2.jpeg';
+import img3 from '../../images/slider/3.jpeg';
+import img4 from '../../images/slider/4.jpeg';
+import img5 from '../../images/slider/5.jpeg';
 import Image from 'next/image';
 
 const Header = () => {

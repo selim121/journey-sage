@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import close from '../../../images/icons/close.svg';
-import open from '../../../images/icons/hamburger-menu.svg';
+import close from '../../images/icons/close.svg';
+import open from '../../images/icons/hamburger-menu.svg';
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);

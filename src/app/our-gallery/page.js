@@ -1,10 +1,10 @@
 import GridGallery from "@/components/Gallery/Gallery";
-import img1 from '../../../images/gallery/bandarban.jpeg';
-import img2 from '../../../images/gallery/coxsbazar.jpeg';
-import img3 from '../../../images/gallery/saintmartin.jpeg';
-import img4 from '../../../images/gallery/sitakundu.jpeg';
-import img5 from '../../../images/gallery/sunamgang.jpeg';
-import img6 from '../../../images/gallery/sylet.jpeg';
+import img1 from '../../images/gallery/bandarban.jpeg';
+import img2 from '../../images/gallery/coxsbazar.jpeg';
+import img3 from '../../images/gallery/saintmartin.jpeg';
+import img4 from '../../images/gallery/sitakundu.jpeg';
+import img5 from '../../images/gallery/sunamgang.jpeg';
+import img6 from '../../images/gallery/sylet.jpeg';
 
 const OurGallery = () => {
     const images = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../../images/others/waterfall.webp';
+import img from '../../images/others/waterfall.webp';
 import Image from 'next/image';
 import { VscDebugBreakpointLog } from 'react-icons/vsc';
 

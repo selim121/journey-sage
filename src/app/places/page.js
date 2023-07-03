@@ -2,19 +2,19 @@
 "use client"
 import Image from 'next/image';
 import React, { useState } from 'react';
-import img1 from '../../../images/places/bisanakandi.jpeg';
-import img2 from '../../../images/places/coxsbazar.jpeg';
-import img3 from '../../../images/places/jaflong.jpeg';
-import img4 from '../../../images/places/kuakata.jpeg';
-import img5 from '../../../images/places/lalbag.jpeg';
-import img6 from '../../../images/places/mohasthan.jpeg';
-import img7 from '../../../images/places/rangamati.jpeg';
-import img8 from '../../../images/places/ratargul.jpeg';
-import img9 from '../../../images/places/saintmartin.jpeg';
-import img10 from '../../../images/places/sajek.jpeg';
-import img11 from '../../../images/places/sitakundu.jpeg';
-import img12 from '../../../images/places/sremangal.jpeg';
-import img13 from '../../../images/places/sundarban.jpg';
+import img1 from '../../images/places/bisanakandi.jpeg';
+import img2 from '../../images/places/coxsbazar.jpeg';
+import img3 from '../../images/places/jaflong.jpeg';
+import img4 from '../../images/places/kuakata.jpeg';
+import img5 from '../../images/places/lalbag.jpeg';
+import img6 from '../../images/places/mohasthan.jpeg';
+import img7 from '../../images/places/rangamati.jpeg';
+import img8 from '../../images/places/ratargul.jpeg';
+import img9 from '../../images/places/saintmartin.jpeg';
+import img10 from '../../images/places/sajek.jpeg';
+import img11 from '../../images/places/sitakundu.jpeg';
+import img12 from '../../images/places/sremangal.jpeg';
+import img13 from '../../images/places/sundarban.jpg';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
